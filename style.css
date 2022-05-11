@@ -1,0 +1,116 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  /*background-color: #fcfcfc;*/
+  color: #575F7D;
+  font-size: 300;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  /* background-color: rgb(230, 229, 229); */
+}
+
+h1,
+h2,
+h3 {
+  color: #343b53;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 400;
+}
+
+.socials {
+  color: rgba(76, 0, 255, 0.542);
+  text-decoration: none;
+  font-size: 15px;
+  /* font-weight: bold; */
+}
+
+.socials:hover {
+  color: rgba(76, 0, 255, 0.942);
+}
+
+.container {
+  padding: 10px;
+  background-color: rgb(230, 229, 229);
+  background-image: url("https://i.pinimg.com/originals/73/1d/2c/731d2c4051be840f3d57553725e46c94.gif");
+  /* background-size: cover; */
+  width: 100%;
+  margin:0;
+  background-size: 100%;
+  /* background-repeat: repeat-y; */
+}
+
+.card {
+  margin: 150px 150px 0px 150px;
+  border: #343b53;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: rgba(248, 248, 249, 0.956);
+  text-align: center;
+  opacity: 90%;
+}
+
+.logos {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.logos li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.button {
+  background-color: rgba(76, 0, 255, 0.542);
+  color: rgba(255, 255, 255, 1);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgba(76, 0, 255, 0.942);
+  color: rgba(255, 255, 255, 1);
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+#projects {
+  animation: color-change 1s infinite;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  25% { color: blue; }
+  50% { color: greenyellow; }
+  75% { color: blue; }
+  100% { color: red; }
+}
+
+.arrow {
+  scroll-behavior: smooth;
+}
