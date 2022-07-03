@@ -52,11 +52,9 @@ h3 {
   padding: 10px;
   background-color: rgb(230, 229, 229);
   background-image: url("https://i.pinimg.com/originals/73/1d/2c/731d2c4051be840f3d57553725e46c94.gif");
-  /* background-size: cover; */
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   margin:0;
-  background-size: 100%;
-  /* background-repeat: repeat-y; */
 }
 
 .card {
